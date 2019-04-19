@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Kingfisher (4.10.1)
+  - SnapKit (4.0.1)
+  - SwiftyJSON (4.2.0)
+  - UIColor_Hex_Swift (4.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON (~> 4.0)
+  - UIColor_Hex_Swift (~> 4.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - SnapKit
+    - SwiftyJSON
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
+
+PODFILE CHECKSUM: 56566724c1f98004478988a83ef3d9aa90c2e30b
+
+COCOAPODS: 1.6.1

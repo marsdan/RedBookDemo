@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD4494834BCC036ADB25FF8 /* libPods-RedBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5A39E35ACD8431665DAB14 /* libPods-RedBook.a */; };
+		57CE86732269AB2900B66681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86722269AB2900B66681 /* AppDelegate.swift */; };
+		57CE86752269AB2900B66681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86742269AB2900B66681 /* ViewController.swift */; };
+		57CE86782269AB2900B66681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE86762269AB2900B66681 /* Main.storyboard */; };
+		57CE867B2269AB2900B66681 /* RedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */; };
+		57CE867D2269AB2B00B66681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CE867C2269AB2B00B66681 /* Assets.xcassets */; };
+		57CE86802269AB2B00B66681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */; };
+		57CE868B2269AB2B00B66681 /* RedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE868A2269AB2B00B66681 /* RedBookTests.swift */; };
+		57CE86962269AB2B00B66681 /* RedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86952269AB2B00B66681 /* RedBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CE86872269AB2B00B66681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CE86672269AB2900B66681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE866E2269AB2900B66681;
+			remoteInfo = RedBook;
+		};
+		57CE86922269AB2B00B66681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CE86672269AB2900B66681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE866E2269AB2900B66681;
+			remoteInfo = RedBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.release.xcconfig"; path = "Target Support Files/Pods-RedBook/Pods-RedBook.release.xcconfig"; sourceTree = "<group>"; };
+		57CE866F2269AB2900B66681 /* RedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE86722269AB2900B66681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CE86742269AB2900B66681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57CE86772269AB2900B66681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CE867A2269AB2900B66681 /* RedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedBook.xcdatamodel; sourceTree = "<group>"; };
+		57CE867C2269AB2B00B66681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CE867F2269AB2B00B66681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CE86812269AB2B00B66681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CE86862269AB2B00B66681 /* RedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE868A2269AB2B00B66681 /* RedBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookTests.swift; sourceTree = "<group>"; };
+		57CE868C2269AB2B00B66681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CE86912269AB2B00B66681 /* RedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE86952269AB2B00B66681 /* RedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookUITests.swift; sourceTree = "<group>"; };
+		57CE86972269AB2B00B66681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.debug.xcconfig"; path = "Target Support Files/Pods-RedBook/Pods-RedBook.debug.xcconfig"; sourceTree = "<group>"; };
+		DF5A39E35ACD8431665DAB14 /* libPods-RedBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CE866C2269AB2900B66681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD4494834BCC036ADB25FF8 /* libPods-RedBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE86832269AB2B00B66681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE868E2269AB2B00B66681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CE86662269AB2900B66681 = {
+			isa = PBXGroup;
+			children = (
+				57CE86712269AB2900B66681 /* RedBook */,
+				57CE86892269AB2B00B66681 /* RedBookTests */,
+				57CE86942269AB2B00B66681 /* RedBookUITests */,
+				57CE86702269AB2900B66681 /* Products */,
+				8AD777759572EE3F33FC3EEA /* Pods */,
+				747E1CD0E199FA03FC2CC552 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CE86702269AB2900B66681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CE866F2269AB2900B66681 /* RedBook.app */,
+				57CE86862269AB2B00B66681 /* RedBookTests.xctest */,
+				57CE86912269AB2B00B66681 /* RedBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CE86712269AB2900B66681 /* RedBook */ = {
+			isa = PBXGroup;
+			children = (
+				57CE86722269AB2900B66681 /* AppDelegate.swift */,
+				57CE86742269AB2900B66681 /* ViewController.swift */,
+				57CE86762269AB2900B66681 /* Main.storyboard */,
+				57CE867C2269AB2B00B66681 /* Assets.xcassets */,
+				57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */,
+				57CE86812269AB2B00B66681 /* Info.plist */,
+				57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */,
+			);
+			path = RedBook;
+			sourceTree = "<group>";
+		};
+		57CE86892269AB2B00B66681 /* RedBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CE868A2269AB2B00B66681 /* RedBookTests.swift */,
+				57CE868C2269AB2B00B66681 /* Info.plist */,
+			);
+			path = RedBookTests;
+			sourceTree = "<group>";
+		};
+		57CE86942269AB2B00B66681 /* RedBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CE86952269AB2B00B66681 /* RedBookUITests.swift */,
+				57CE86972269AB2B00B66681 /* Info.plist */,
+			);
+			path = RedBookUITests;
+			sourceTree = "<group>";
+		};
+		747E1CD0E199FA03FC2CC552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A39E35ACD8431665DAB14 /* libPods-RedBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD777759572EE3F33FC3EEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */,
+				24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CE866E2269AB2900B66681 /* RedBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE869A2269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBook" */;
+			buildPhases = (
+				B125D202487BEDB9D52DA68D /* [CP] Check Pods Manifest.lock */,
+				57CE866B2269AB2900B66681 /* Sources */,
+				57CE866C2269AB2900B66681 /* Frameworks */,
+				57CE866D2269AB2900B66681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBook;
+			productName = RedBook;
+			productReference = 57CE866F2269AB2900B66681 /* RedBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CE86852269AB2B00B66681 /* RedBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE869D2269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBookTests" */;
+			buildPhases = (
+				57CE86822269AB2B00B66681 /* Sources */,
+				57CE86832269AB2B00B66681 /* Frameworks */,
+				57CE86842269AB2B00B66681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CE86882269AB2B00B66681 /* PBXTargetDependency */,
+			);
+			name = RedBookTests;
+			productName = RedBookTests;
+			productReference = 57CE86862269AB2B00B66681 /* RedBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57CE86902269AB2B00B66681 /* RedBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE86A02269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBookUITests" */;
+			buildPhases = (
+				57CE868D2269AB2B00B66681 /* Sources */,
+				57CE868E2269AB2B00B66681 /* Frameworks */,
+				57CE868F2269AB2B00B66681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CE86932269AB2B00B66681 /* PBXTargetDependency */,
+			);
+			name = RedBookUITests;
+			productName = RedBookUITests;
+			productReference = 57CE86912269AB2B00B66681 /* RedBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CE86672269AB2900B66681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mars;
+				TargetAttributes = {
+					57CE866E2269AB2900B66681 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					57CE86852269AB2B00B66681 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 57CE866E2269AB2900B66681;
+					};
+					57CE86902269AB2B00B66681 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 57CE866E2269AB2900B66681;
+					};
+				};
+			};
+			buildConfigurationList = 57CE866A2269AB2900B66681 /* Build configuration list for PBXProject "RedBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CE86662269AB2900B66681;
+			productRefGroup = 57CE86702269AB2900B66681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CE866E2269AB2900B66681 /* RedBook */,
+				57CE86852269AB2B00B66681 /* RedBookTests */,
+				57CE86902269AB2B00B66681 /* RedBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CE866D2269AB2900B66681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE86802269AB2B00B66681 /* LaunchScreen.storyboard in Resources */,
+				57CE867D2269AB2B00B66681 /* Assets.xcassets in Resources */,
+				57CE86782269AB2900B66681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE86842269AB2B00B66681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE868F2269AB2B00B66681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B125D202487BEDB9D52DA68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CE866B2269AB2900B66681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE867B2269AB2900B66681 /* RedBook.xcdatamodeld in Sources */,
+				57CE86752269AB2900B66681 /* ViewController.swift in Sources */,
+				57CE86732269AB2900B66681 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE86822269AB2B00B66681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE868B2269AB2B00B66681 /* RedBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE868D2269AB2B00B66681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE86962269AB2B00B66681 /* RedBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CE86882269AB2B00B66681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CE866E2269AB2900B66681 /* RedBook */;
+			targetProxy = 57CE86872269AB2B00B66681 /* PBXContainerItemProxy */;
+		};
+		57CE86932269AB2B00B66681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CE866E2269AB2900B66681 /* RedBook */;
+			targetProxy = 57CE86922269AB2B00B66681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CE86762269AB2900B66681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CE86772269AB2900B66681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CE867F2269AB2B00B66681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CE86982269AB2B00B66681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57CE86992269AB2B00B66681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CE869B2269AB2B00B66681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CE869C2269AB2B00B66681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57CE869E2269AB2B00B66681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBook.app/RedBook";
+			};
+			name = Debug;
+		};
+		57CE869F2269AB2B00B66681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedBook.app/RedBook";
+			};
+			name = Release;
+		};
+		57CE86A12269AB2B00B66681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBook;
+			};
+			name = Debug;
+		};
+		57CE86A22269AB2B00B66681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KZ5P69K7X5;
+				INFOPLIST_FILE = RedBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CE866A2269AB2900B66681 /* Build configuration list for PBXProject "RedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE86982269AB2B00B66681 /* Debug */,
+				57CE86992269AB2B00B66681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE869A2269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE869B2269AB2B00B66681 /* Debug */,
+				57CE869C2269AB2B00B66681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE869D2269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE869E2269AB2B00B66681 /* Debug */,
+				57CE869F2269AB2B00B66681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE86A02269AB2B00B66681 /* Build configuration list for PBXNativeTarget "RedBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE86A12269AB2B00B66681 /* Debug */,
+				57CE86A22269AB2B00B66681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57CE867A2269AB2900B66681 /* RedBook.xcdatamodel */,
+			);
+			currentVersion = 57CE867A2269AB2900B66681 /* RedBook.xcdatamodel */;
+			path = RedBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57CE86672269AB2900B66681 /* Project object */;
+}
