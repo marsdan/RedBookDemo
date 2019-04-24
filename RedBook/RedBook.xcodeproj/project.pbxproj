@@ -8,14 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3FD4494834BCC036ADB25FF8 /* libPods-RedBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF5A39E35ACD8431665DAB14 /* libPods-RedBook.a */; };
+		57599B97226FFDC300361D4C /* RBHomePageItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57599B96226FFDC300361D4C /* RBHomePageItemCollectionViewCell.swift */; };
+		57599B992270076E00361D4C /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57599B982270076E00361D4C /* WaterfallLayout.swift */; };
+		57599B9B227048D100361D4C /* NSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57599B9A227048D100361D4C /* NSStringExtension.swift */; };
+		57C56294226EB0AC00957109 /* RBHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C56293226EB0AC00957109 /* RBHomePageViewController.swift */; };
+		57C56296226EB14600957109 /* RBHomePageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C56295226EB14600957109 /* RBHomePageSearchViewController.swift */; };
+		57C56299226EB18500957109 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C56298226EB18500957109 /* BaseViewController.swift */; };
+		57C562A2226EB5E000957109 /* RBHomePagePublicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C562A1226EB5E000957109 /* RBHomePagePublicListViewController.swift */; };
+		57C562A8226F113C00957109 /* RBHomePageItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C562A7226F113C00957109 /* RBHomePageItemModel.swift */; };
+		57C562AA226F116800957109 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C562A9226F116800957109 /* BaseModel.swift */; };
+		57C562AD226F14A300957109 /* RBHomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C562AC226F14A300957109 /* RBHomePageViewModel.swift */; };
 		57CE86732269AB2900B66681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86722269AB2900B66681 /* AppDelegate.swift */; };
-		57CE86752269AB2900B66681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86742269AB2900B66681 /* ViewController.swift */; };
 		57CE86782269AB2900B66681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE86762269AB2900B66681 /* Main.storyboard */; };
 		57CE867B2269AB2900B66681 /* RedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */; };
 		57CE867D2269AB2B00B66681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CE867C2269AB2B00B66681 /* Assets.xcassets */; };
 		57CE86802269AB2B00B66681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */; };
 		57CE868B2269AB2B00B66681 /* RedBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE868A2269AB2B00B66681 /* RedBookTests.swift */; };
 		57CE86962269AB2B00B66681 /* RedBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE86952269AB2B00B66681 /* RedBookUITests.swift */; };
+		57EA9131226D66A3003A1B52 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9130226D66A3003A1B52 /* RootTabBarViewController.swift */; };
+		57EA9135226D67F9003A1B52 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9134226D67F9003A1B52 /* UIColorExtension.swift */; };
+		57EA913A226DA672003A1B52 /* RootTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9139226DA672003A1B52 /* RootTabBar.swift */; };
+		57EA913C226DA69A003A1B52 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA913B226DA69A003A1B52 /* UIViewExtension.swift */; };
+		57EA914C226DB7DD003A1B52 /* RBHomePageSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EA914B226DB7DD003A1B52 /* RBHomePageSearchView.swift */; };
+		57EA9158226DC681003A1B52 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9153226DC681003A1B52 /* UIView+SDAutoLayout.m */; };
+		57EA9159226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EA9156226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +53,18 @@
 
 /* Begin PBXFileReference section */
 		24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.release.xcconfig"; path = "Target Support Files/Pods-RedBook/Pods-RedBook.release.xcconfig"; sourceTree = "<group>"; };
+		57599B96226FFDC300361D4C /* RBHomePageItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePageItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		57599B982270076E00361D4C /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		57599B9A227048D100361D4C /* NSStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringExtension.swift; sourceTree = "<group>"; };
+		57C56293226EB0AC00957109 /* RBHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBHomePageViewController.swift; sourceTree = "<group>"; };
+		57C56295226EB14600957109 /* RBHomePageSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePageSearchViewController.swift; sourceTree = "<group>"; };
+		57C56298226EB18500957109 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		57C562A1226EB5E000957109 /* RBHomePagePublicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePagePublicListViewController.swift; sourceTree = "<group>"; };
+		57C562A7226F113C00957109 /* RBHomePageItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePageItemModel.swift; sourceTree = "<group>"; };
+		57C562A9226F116800957109 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		57C562AC226F14A300957109 /* RBHomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePageViewModel.swift; sourceTree = "<group>"; };
 		57CE866F2269AB2900B66681 /* RedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CE86722269AB2900B66681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57CE86742269AB2900B66681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57CE86772269AB2900B66681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57CE867A2269AB2900B66681 /* RedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedBook.xcdatamodel; sourceTree = "<group>"; };
 		57CE867C2269AB2B00B66681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +76,17 @@
 		57CE86912269AB2B00B66681 /* RedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CE86952269AB2B00B66681 /* RedBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBookUITests.swift; sourceTree = "<group>"; };
 		57CE86972269AB2B00B66681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57EA9130226D66A3003A1B52 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		57EA9134226D67F9003A1B52 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		57EA9139226DA672003A1B52 /* RootTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBar.swift; sourceTree = "<group>"; };
+		57EA913B226DA69A003A1B52 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		57EA9141226DAA5B003A1B52 /* RedBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		57EA914B226DB7DD003A1B52 /* RBHomePageSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RBHomePageSearchView.swift; sourceTree = "<group>"; };
+		57EA9153226DC681003A1B52 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		57EA9154226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		57EA9155226DC681003A1B52 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		57EA9156226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		57EA9157226DC681003A1B52 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
 		7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedBook.debug.xcconfig"; path = "Target Support Files/Pods-RedBook/Pods-RedBook.debug.xcconfig"; sourceTree = "<group>"; };
 		DF5A39E35ACD8431665DAB14 /* libPods-RedBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RedBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +117,139 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57599B95226FFD8700361D4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57599B96226FFDC300361D4C /* RBHomePageItemCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57C5628E226EB01F00957109 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		57C5628F226EB04900957109 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				57C56290226EB05B00957109 /* VC */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		57C56290226EB05B00957109 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				57C56295226EB14600957109 /* RBHomePageSearchViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		57C56291226EB07500957109 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				57C56292226EB0AC00957109 /* VC */,
+				57EA914A226DB77A003A1B52 /* Subview */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		57C56292226EB0AC00957109 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				57C56293226EB0AC00957109 /* RBHomePageViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		57C56297226EB17300957109 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				57C56298226EB18500957109 /* BaseViewController.swift */,
+				57C562A9226F116800957109 /* BaseModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		57C5629A226EB2EC00957109 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		57C5629B226EB3FB00957109 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		57C5629C226EB44D00957109 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		57C5629D226EB48700957109 /* PageListVC */ = {
+			isa = PBXGroup;
+			children = (
+				57599B95226FFD8700361D4C /* View */,
+				57C562AB226F147300957109 /* ViewModel */,
+				57C562A6226F0EDF00957109 /* Model */,
+				57C562A0226EB58600957109 /* VC */,
+				57C5629E226EB49600957109 /* Public */,
+				57C5629A226EB2EC00957109 /* Discovery */,
+				57C5629C226EB44D00957109 /* Follow */,
+				57C5629B226EB3FB00957109 /* Nearby */,
+			);
+			path = PageListVC;
+			sourceTree = "<group>";
+		};
+		57C5629E226EB49600957109 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				57C5629F226EB4E300957109 /* Subview */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		57C5629F226EB4E300957109 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		57C562A0226EB58600957109 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				57C562A1226EB5E000957109 /* RBHomePagePublicListViewController.swift */,
+				57599B982270076E00361D4C /* WaterfallLayout.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		57C562A6226F0EDF00957109 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57C562A7226F113C00957109 /* RBHomePageItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57C562AB226F147300957109 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57C562AC226F14A300957109 /* RBHomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		57CE86662269AB2900B66681 = {
 			isa = PBXGroup;
 			children = (
@@ -106,13 +275,11 @@
 		57CE86712269AB2900B66681 /* RedBook */ = {
 			isa = PBXGroup;
 			children = (
-				57CE86722269AB2900B66681 /* AppDelegate.swift */,
-				57CE86742269AB2900B66681 /* ViewController.swift */,
-				57CE86762269AB2900B66681 /* Main.storyboard */,
-				57CE867C2269AB2B00B66681 /* Assets.xcassets */,
-				57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */,
-				57CE86812269AB2B00B66681 /* Info.plist */,
-				57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */,
+				57CE86A32269B9EE00B66681 /* APPDelegate */,
+				57EA9132226D679A003A1B52 /* Utils */,
+				57CE86A42269BA0300B66681 /* Main */,
+				57EA9145226DAB62003A1B52 /* Module */,
+				57CE86A52269BA1C00B66681 /* Other */,
 			);
 			path = RedBook;
 			sourceTree = "<group>";
@@ -135,6 +302,111 @@
 			path = RedBookUITests;
 			sourceTree = "<group>";
 		};
+		57CE86A32269B9EE00B66681 /* APPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				57CE86722269AB2900B66681 /* AppDelegate.swift */,
+			);
+			path = APPDelegate;
+			sourceTree = "<group>";
+		};
+		57CE86A42269BA0300B66681 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				57CE86A62269BA5900B66681 /* RootController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		57CE86A52269BA1C00B66681 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				57EA9141226DAA5B003A1B52 /* RedBook-Bridging-Header.h */,
+				57CE867E2269AB2B00B66681 /* LaunchScreen.storyboard */,
+				57CE86812269AB2B00B66681 /* Info.plist */,
+				57CE86792269AB2900B66681 /* RedBook.xcdatamodeld */,
+				57CE867C2269AB2B00B66681 /* Assets.xcassets */,
+				57CE86762269AB2900B66681 /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		57CE86A62269BA5900B66681 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				57EA9139226DA672003A1B52 /* RootTabBar.swift */,
+				57EA9130226D66A3003A1B52 /* RootTabBarViewController.swift */,
+			);
+			path = RootController;
+			sourceTree = "<group>";
+		};
+		57EA9132226D679A003A1B52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57C56297226EB17300957109 /* Base */,
+				57EA914D226DC659003A1B52 /* Vender */,
+				57EA9133226D67DC003A1B52 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		57EA9133226D67DC003A1B52 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				57EA913B226DA69A003A1B52 /* UIViewExtension.swift */,
+				57EA9134226D67F9003A1B52 /* UIColorExtension.swift */,
+				57599B9A227048D100361D4C /* NSStringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		57EA9145226DAB62003A1B52 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				57C5628E226EB01F00957109 /* New Group */,
+				57EA9146226DAB94003A1B52 /* HomePage */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		57EA9146226DAB94003A1B52 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				57C56291226EB07500957109 /* Home */,
+				57C5629D226EB48700957109 /* PageListVC */,
+				57C5628F226EB04900957109 /* SearchVC */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		57EA914A226DB77A003A1B52 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				57EA914B226DB7DD003A1B52 /* RBHomePageSearchView.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		57EA914D226DC659003A1B52 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				57EA9152226DC681003A1B52 /* SDAutoLayout */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		57EA9152226DC681003A1B52 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				57EA9155226DC681003A1B52 /* SDAutoLayout.h */,
+				57EA9157226DC681003A1B52 /* UIView+SDAutoLayout.h */,
+				57EA9153226DC681003A1B52 /* UIView+SDAutoLayout.m */,
+				57EA9154226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.h */,
+				57EA9156226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
 		747E1CD0E199FA03FC2CC552 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +421,6 @@
 				7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */,
 				24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,6 +435,7 @@
 				57CE866B2269AB2900B66681 /* Sources */,
 				57CE866C2269AB2900B66681 /* Frameworks */,
 				57CE866D2269AB2900B66681 /* Resources */,
+				B383D0991B1AEAABC4503153 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +494,7 @@
 				TargetAttributes = {
 					57CE866E2269AB2900B66681 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					57CE86852269AB2B00B66681 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -303,6 +576,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B383D0991B1AEAABC4503153 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedBook/Pods-RedBook-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedBook/Pods-RedBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -310,9 +605,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C562A2226EB5E000957109 /* RBHomePagePublicListViewController.swift in Sources */,
+				57C56296226EB14600957109 /* RBHomePageSearchViewController.swift in Sources */,
+				57EA913C226DA69A003A1B52 /* UIViewExtension.swift in Sources */,
 				57CE867B2269AB2900B66681 /* RedBook.xcdatamodeld in Sources */,
-				57CE86752269AB2900B66681 /* ViewController.swift in Sources */,
+				57EA914C226DB7DD003A1B52 /* RBHomePageSearchView.swift in Sources */,
+				57599B97226FFDC300361D4C /* RBHomePageItemCollectionViewCell.swift in Sources */,
+				57EA9131226D66A3003A1B52 /* RootTabBarViewController.swift in Sources */,
+				57C56299226EB18500957109 /* BaseViewController.swift in Sources */,
+				57EA9159226DC681003A1B52 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				57C562A8226F113C00957109 /* RBHomePageItemModel.swift in Sources */,
+				57C562AA226F116800957109 /* BaseModel.swift in Sources */,
+				57C562AD226F14A300957109 /* RBHomePageViewModel.swift in Sources */,
 				57CE86732269AB2900B66681 /* AppDelegate.swift in Sources */,
+				57C56294226EB0AC00957109 /* RBHomePageViewController.swift in Sources */,
+				57EA9158226DC681003A1B52 /* UIView+SDAutoLayout.m in Sources */,
+				57EA9135226D67F9003A1B52 /* UIColorExtension.swift in Sources */,
+				57599B992270076E00361D4C /* WaterfallLayout.swift in Sources */,
+				57EA913A226DA672003A1B52 /* RootTabBar.swift in Sources */,
+				57599B9B227048D100361D4C /* NSStringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +729,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -473,7 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -488,17 +799,21 @@
 			baseConfigurationReference = 7BC28AE7E9858F7836130413 /* Pods-RedBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ5P69K7X5;
-				INFOPLIST_FILE = RedBook/Info.plist;
+				INFOPLIST_FILE = RedBook/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RedBook/Other/RedBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,17 +822,20 @@
 			baseConfigurationReference = 24F888AAB811CF75652E9AA2 /* Pods-RedBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ5P69K7X5;
-				INFOPLIST_FILE = RedBook/Info.plist;
+				INFOPLIST_FILE = RedBook/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbookdemo.app.RedBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RedBook/Other/RedBook-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

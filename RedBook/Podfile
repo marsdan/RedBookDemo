@@ -1,11 +1,28 @@
 
 platform :ios, '9.0'
 target 'RedBook' do
-pod 'Alamofire'
-pod 'SwiftyJSON', '~> 4.0'
-pod 'Kingfisher'
-#布局
-pod 'SnapKit', '~> 4.0.0'
-#颜色库
-pod 'UIColor_Hex_Swift', '~> 4.0.1'
+  #OC库
+  #全屏侧滑返回
+  pod 'FDFullscreenPopGesture', '1.1'
+  #刷新
+  pod 'MJRefresh'
+  #  分段控制器
+  pod 'WMPageController'
+  
+  #网络请求
+  pod 'Alamofire'
+  #Json转Model
+  pod 'SwiftyJSON', '~> 4.0'
+  #图片缓存
+  pod 'Kingfisher'
+#  #布局
+#  pod 'SnapKit'
+  #颜色库
+  pod 'UIColor_Hex_Swift'
+  #RAC
+  pod 'ReactiveCocoa'
+  #钥匙串
+  pod 'KeychainAccess'
+  #WebSocket
+  pod 'Starscream', '~> 3.0.2'
 end

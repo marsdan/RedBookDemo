@@ -1,32 +1,60 @@
 PODS:
-  - Alamofire (4.8.1)
+  - Alamofire (4.8.2)
+  - FDFullscreenPopGesture (1.1)
+  - KeychainAccess (3.2.0)
   - Kingfisher (4.10.1)
-  - SnapKit (4.0.1)
-  - SwiftyJSON (4.2.0)
-  - UIColor_Hex_Swift (4.0.2)
+  - MJRefresh (3.1.16)
+  - ReactiveCocoa (9.0.0):
+    - ReactiveSwift (~> 5.0)
+  - ReactiveSwift (5.0.1):
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - Starscream (3.0.6)
+  - SwiftyJSON (4.3.0)
+  - UIColor_Hex_Swift (5.1.0)
+  - WMPageController (2.5.2)
 
 DEPENDENCIES:
   - Alamofire
+  - FDFullscreenPopGesture (= 1.1)
+  - KeychainAccess
   - Kingfisher
-  - SnapKit (~> 4.0.0)
+  - MJRefresh
+  - ReactiveCocoa
+  - Starscream (~> 3.0.2)
   - SwiftyJSON (~> 4.0)
-  - UIColor_Hex_Swift (~> 4.0.1)
+  - UIColor_Hex_Swift
+  - WMPageController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - FDFullscreenPopGesture
+    - KeychainAccess
     - Kingfisher
-    - SnapKit
+    - MJRefresh
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+    - Starscream
     - SwiftyJSON
     - UIColor_Hex_Swift
+    - WMPageController
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  KeychainAccess: 3b1bf8a77eb4c6ea1ce9404c292e48f948954c6b
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
-  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
-  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
-  UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  ReactiveCocoa: 29709cf0cc7502ddd04a51220e10ee0336d8bec8
+  ReactiveSwift: cac20a5bbe560c5806bd29c0fccf90d03b996ac1
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  UIColor_Hex_Swift: 8be7432edacb7fa91c78aa05ef3c30b66e4f9415
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
 
-PODFILE CHECKSUM: 56566724c1f98004478988a83ef3d9aa90c2e30b
+PODFILE CHECKSUM: 2d97ce64114993dbd30f13983b35b05f0f536f87
 
 COCOAPODS: 1.6.1
